@@ -11,7 +11,7 @@ import SolutionDrop from './SolutionDrop'
 const Container = styled.header`
 background-color: white;
 border-bottom: 1px solid #505b6e37;
-height: 85px;
+height: 95px;
 `
 const Hold = styled.div`
 display: flex;
@@ -112,8 +112,8 @@ const Header:React.FC = () => {
             </Navigation>
             <ButtHold>
             <Search> {" "} <BsSearch/> </Search>
-            <Button bg="#0065ff" cl="white" title="Try now" />
-            <Button bg="white" cl="#0052D3" title="Sign in" />
+            <Button bg="#0065ff" cl="white" title="Try now" hbg="#0e68d6" />
+            <Button bg="white" cl="#0052D3"  title="Sign in" hbg="#c7c7c7" />
         </ButtHold>
         </Hold>
         

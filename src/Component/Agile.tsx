@@ -64,7 +64,6 @@ margin-bottom: 16px;
 const Pic=styled.img``
 const Pix=styled.img`
 width: 38px;
-/* margin-bottom: 20px; */
 padding: 20px;
 border-radius: 2px;
 background-color: #c1c7d086;
@@ -72,10 +71,7 @@ background-color: #c1c7d086;
     background-color: #c1c7d0;
 }
 `
-const Sideimg = styled.img`
-    /* width: 900px;
-    object-fit: cover; */
-`
+const Sideimg = styled.img``
 
 const WorkCard:React.FC<Iprops> = ({icon, title, text})=>{
     return(

@@ -9,9 +9,6 @@ import Agile from './Agile'
 
 const Container=styled.div``
 const Wrapper1=styled.div``
-// const WrapSide=styled.div``
-// const Wrap1=styled.div``
-// const Wrap2=styled.div``
 const Wrapper=styled.div`
 text-align: center;
 margin-bottom: 60px;

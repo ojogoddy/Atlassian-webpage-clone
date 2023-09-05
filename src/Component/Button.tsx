@@ -5,9 +5,10 @@ interface Iprops{
     bg:string;
     cl: string;
     title: string;
+    hbg:string
 }
 
-const But = styled.button<{bg:string; cl:string}> `
+const But = styled.button<{bg:string; cl:string; hbg:string}> `
 background-color: ${(props)=> props.bg};
 color: ${(props)=> props.cl};
 padding: 8px 15px;
@@ -18,14 +19,14 @@ cursor: pointer;
 font-size: 16px;
 font-family: "Montserrat", sans-serif;
 :hover{
-    background-color: #c7c7c7;
+    background-color: ${(props)=>props.hbg};
 }
 `
 
 
-const Button:React.FC<Iprops> = ({bg, cl, title}) => {
+const Button:React.FC<Iprops> = ({bg, cl, title, hbg}) => {
   return (
-    <But cl ={cl} bg ={bg}>
+    <But cl ={cl} bg ={bg} hbg={hbg}>
        {title} </But>
   )
 }

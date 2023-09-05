@@ -5,6 +5,9 @@ import Work from './Component/Work'
 import Join from './Component/Join'
 import GlobalStyles from './Component/GlobalStyles'
 import Team from './Component/Team'
+import { Careers } from './Component/Career'
+import { Footer } from './Component/Footer'
+import { Foot } from './Component/Foot'
 
 
 const App:React.FC = () => {
@@ -16,9 +19,10 @@ const App:React.FC = () => {
       <Work />
       <Join />
       <Team/>
-      
-      {/* <ProductDrop /> */}
-      {/* <Resources /> */}
+      <Careers />
+      <Footer />
+      <Foot />
+
     </div>
   )
 }
